@@ -1,0 +1,5 @@
+azure-ai-projects>=2.1.0,<3.0.0
+azure-identity>=1.17.1,<2.0.0
+fastapi>=0.115,<1
+python-dotenv>=1,<2
+uvicorn[standard]>=0.30,<1

@@ -1,0 +1,24 @@
+{
+  "name": "distribuidora-rio-claro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:api": "python -m uvicorn backend.app:app --reload --host 127.0.0.1 --port 8000",
+    "start": "python -m uvicorn backend.app:app --host 0.0.0.0 --port 8000",
+    "test:api": "python -m unittest backend.test_app"
+  },
+  "dependencies": {
+    "dompurify": "^3.4.17",
+    "microsoft-cognitiveservices-speech-sdk": "^1.53.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "vite": "^6.3.5"
+  }
+}
